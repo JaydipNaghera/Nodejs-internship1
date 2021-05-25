@@ -1,0 +1,45 @@
+<html>
+<h2>-----------student details------------</h2>
+<h2>Enrolment No. : 180770107536 </h2>
+<h2> Name : Jaydip Naghera </h2>
+<head> Javascript Events </head>
+<body>
+ <script language="Javascript" type="text/Javascript">
+ <!-- function clickevent()
+ { document.write("This is Javacore"); }
+ 
+ //-->
+ <!-
+- function focusevent() { document.getElementById("input1").style.background="
+aqua"; } //-->37
+ <!-- function mouseoverevent() { alert("Suceess"); } //-->
+ //-->
+ <!-- 
+ function keydownevent() 
+ { 
+ document.getElementById("input1"); 
+ alert("Pressed a key"); 
+ } 
+ //-->
+ </script>
+ <form>
+ <body>
+ <h1>Click event</h1>
+ <input type="button" onclick="clickevent()" value="Who's this?" />
+ </body>
+ <body>
+ <h1>focusevent</h1>
+ <h2> Enter something here</h2>
+ <input type="text" id="input1" onfocus="focusevent()" />
+ </body>
+ <body>
+ <h1>mouseover event</h1>
+ <p onmouseover="mouseoverevent()"> Keep cursor over me</p>
+ </body>
+ <body>38
+ <h2> Enter something here</h2>
+ <input type="text" id="input1" onkeydown="keydownevent()" />
+ </body>
+ </form>
+</body>
+</html
