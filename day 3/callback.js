@@ -10,4 +10,4 @@ function callMe() {
 }
 
 //passing function as an argument
-greet('Parth', callMe);
+greet('JAYDIP', callMe);
